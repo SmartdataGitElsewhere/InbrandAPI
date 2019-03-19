@@ -1,0 +1,23 @@
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\InbrandInterface\bin\Debug\InbrandInterface.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\InbrandInterface\bin\Debug\InbrandInterface.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\InbrandInterface\obj\Debug\InbrandInterface.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\InbrandInterface\obj\Debug\InbrandInterface.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\InbrandInterface\bin\Debug\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\InbrandInterface\bin\Debug\Inbrand.CoreEntityes.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\InbrandInterface\obj\Debug\Inbrand.Interface.csprojResolveAssemblyReference.cache
+D:\Day User\Vibhesh\Official\InbrandsAPI\InbrandInterface\bin\Debug\InbrandInterface.dll
+D:\Day User\Vibhesh\Official\InbrandsAPI\InbrandInterface\bin\Debug\InbrandInterface.pdb
+D:\Day User\Vibhesh\Official\InbrandsAPI\InbrandInterface\bin\Debug\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InbrandsAPI\InbrandInterface\bin\Debug\Inbrand.CoreEntityes.pdb
+D:\Day User\Vibhesh\Official\InbrandsAPI\InbrandInterface\obj\Debug\Inbrand.Interface.csprojResolveAssemblyReference.cache
+D:\Day User\Vibhesh\Official\InbrandsAPI\InbrandInterface\obj\Debug\InbrandInterface.dll
+D:\Day User\Vibhesh\Official\InbrandsAPI\InbrandInterface\obj\Debug\InbrandInterface.pdb
+D:\Inbrand\InbrandAPI\InbrandInterface\bin\Debug\InbrandInterface.dll
+D:\Inbrand\InbrandAPI\InbrandInterface\bin\Debug\InbrandInterface.pdb
+D:\Inbrand\InbrandAPI\InbrandInterface\bin\Debug\Inbrand.CoreEntityes.dll
+D:\Inbrand\InbrandAPI\InbrandInterface\bin\Debug\Inbrand.CoreEntityes.pdb
+D:\Inbrand\InbrandAPI\InbrandInterface\obj\Debug\Inbrand.Interface.csprojAssemblyReference.cache
+D:\Inbrand\InbrandAPI\InbrandInterface\obj\Debug\Inbrand.Interface.csproj.CoreCompileInputs.cache
+D:\Inbrand\InbrandAPI\InbrandInterface\obj\Debug\Inbrand.Interface.csproj.CopyComplete
+D:\Inbrand\InbrandAPI\InbrandInterface\obj\Debug\InbrandInterface.dll
+D:\Inbrand\InbrandAPI\InbrandInterface\obj\Debug\InbrandInterface.pdb

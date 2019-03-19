@@ -1,0 +1,22 @@
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.FrotNoxAPI\bin\Release\Inbrand.FrotNoxAPI.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.FrotNoxAPI\bin\Release\Inbrand.FrotNoxAPI.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.FrotNoxAPI\bin\Release\FortnoxAPILibrary.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.FrotNoxAPI\bin\Release\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.FrotNoxAPI\bin\Release\Inbrand.CoreEntityes.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.FrotNoxAPI\obj\Release\Inbrand.FrotNoxAPI.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.FrotNoxAPI\obj\Release\Inbrand.FrotNoxAPI.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.FrotNoxAPI\obj\Release\Inbrand.FrotNoxAPI.csprojResolveAssemblyReference.cache
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\bin\Release\Inbrand.FrotNoxAPI.dll
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\bin\Release\Inbrand.FrotNoxAPI.pdb
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\bin\Release\FortnoxAPILibrary.dll
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\bin\Release\Inbrand.Common.dll
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\bin\Release\Inbrand.CoreEntityes.dll
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\bin\Release\Inbrand.Common.pdb
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\bin\Release\Inbrand.CoreEntityes.pdb
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\obj\Release\Inbrand.FrotNoxAPI.csprojAssemblyReference.cache
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\obj\Release\Inbrand.FrotNoxAPI.csproj.CoreCompileInputs.cache
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\obj\Release\Inbrand.FrotNoxAPI.csproj.CopyComplete
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\obj\Release\Inbrand.FrotNoxAPI.dll
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\obj\Release\Inbrand.FrotNoxAPI.pdb
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\bin\Release\InbrandInterface.dll
+D:\Inbrand\InbrandAPI\Inbrand.FrotNoxAPI\bin\Release\InbrandInterface.pdb

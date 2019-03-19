@@ -1,0 +1,48 @@
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\ServiceLayer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\ServiceLayer.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\Inbrand.FrotNoxAPI.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\InbrandInterface.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\RepositoryLayer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\FortnoxAPILibrary.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\EntityFramework.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\Inbrand.CoreEntityes.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\Inbrand.FrotNoxAPI.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\InbrandInterface.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\RepositoryLayer.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\bin\Release\EntityFramework.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\obj\Release\Inbrand.ServiceLayer.csprojResolveAssemblyReference.cache
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\obj\Release\ServiceLayer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\ServiceLayer\obj\Release\ServiceLayer.pdb
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\ServiceLayer.dll.config
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\ServiceLayer.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\ServiceLayer.pdb
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\EntityFramework.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\EntityFramework.SqlServer.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Inbrand.Common.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Inbrand.CoreEntityes.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Inbrand.FrotNoxAPI.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\InbrandInterface.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Newtonsoft.Json.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\RepositoryLayer.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\System.Web.Http.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Inbrand.Common.pdb
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Inbrand.CoreEntityes.pdb
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Inbrand.FrotNoxAPI.pdb
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\InbrandInterface.pdb
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\RepositoryLayer.pdb
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\RepositoryLayer.dll.config
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\EntityFramework.xml
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\EntityFramework.SqlServer.xml
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Newtonsoft.Json.pdb
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\Newtonsoft.Json.xml
+D:\Inbrand\InbrandAPI\ServiceLayer\bin\Release\System.Web.Http.xml
+D:\Inbrand\InbrandAPI\ServiceLayer\obj\Release\Inbrand.ServiceLayer.csprojAssemblyReference.cache
+D:\Inbrand\InbrandAPI\ServiceLayer\obj\Release\Inbrand.ServiceLayer.csproj.CoreCompileInputs.cache
+D:\Inbrand\InbrandAPI\ServiceLayer\obj\Release\Inbrand.ServiceLayer.csproj.CopyComplete
+D:\Inbrand\InbrandAPI\ServiceLayer\obj\Release\ServiceLayer.dll
+D:\Inbrand\InbrandAPI\ServiceLayer\obj\Release\ServiceLayer.pdb

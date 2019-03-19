@@ -1,0 +1,32 @@
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\RepositoryLayer.dll.config
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\RepositoryLayer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\RepositoryLayer.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\EntityFramework.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\EntityFramework.SqlServer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\InbrandInterface.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\Inbrand.CoreEntityes.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\InbrandInterface.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\EntityFramework.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\bin\Release\EntityFramework.SqlServer.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\obj\Release\Inbrand.RepositoryLayer.csprojResolveAssemblyReference.cache
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\obj\Release\RepositoryLayer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\RepositoryLayer\obj\Release\RepositoryLayer.pdb
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\RepositoryLayer.dll.config
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\RepositoryLayer.dll
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\RepositoryLayer.pdb
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\EntityFramework.dll
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\EntityFramework.SqlServer.dll
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\Inbrand.CoreEntityes.dll
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\InbrandInterface.dll
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\Inbrand.CoreEntityes.pdb
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\InbrandInterface.pdb
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\EntityFramework.xml
+D:\Inbrand\InbrandAPI\RepositoryLayer\bin\Release\EntityFramework.SqlServer.xml
+D:\Inbrand\InbrandAPI\RepositoryLayer\obj\Release\Inbrand.RepositoryLayer.csprojAssemblyReference.cache
+D:\Inbrand\InbrandAPI\RepositoryLayer\obj\Release\RepositoryLayer.Migrations.inti3.resources
+D:\Inbrand\InbrandAPI\RepositoryLayer\obj\Release\Inbrand.RepositoryLayer.csproj.GenerateResource.cache
+D:\Inbrand\InbrandAPI\RepositoryLayer\obj\Release\Inbrand.RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\Inbrand\InbrandAPI\RepositoryLayer\obj\Release\Inbrand.RepositoryLayer.csproj.CopyComplete
+D:\Inbrand\InbrandAPI\RepositoryLayer\obj\Release\RepositoryLayer.dll
+D:\Inbrand\InbrandAPI\RepositoryLayer\obj\Release\RepositoryLayer.pdb

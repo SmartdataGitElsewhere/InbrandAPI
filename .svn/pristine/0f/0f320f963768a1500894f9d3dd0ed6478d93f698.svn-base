@@ -1,0 +1,43 @@
+﻿using Inbrand.Common.Helpers;
+using Inbrand.CoreEntities;
+using Inbrand.CoreEntityes.APIResponses;
+using Inbrand.CoreEntityes.FilterModelAndview;
+using Inbrand.CoreEntityes.Models;
+using Inbrand.FrotNoxAPI.Interface;
+using InbrandInterface.ServiceInterface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ServiceLayer
+{
+    public class ArticleService : IArticleService
+    {
+        private readonly IArticleRepository invoiceRepository;
+        public ArticleService(IArticleRepository _invoiceRepository)
+        {
+            this.invoiceRepository = _invoiceRepository;
+        }
+        public List<_Article> All(string articleid)
+        {
+            return invoiceRepository.All(articleid);
+        }
+
+        public async Task<APIResponse> ValidateSubscriptionById(List<SubscriptionsModel> listsubscription)
+        {
+            APIResponse response = new APIResponse();
+            try
+            {
+                response = await invoiceRepository.ValidateSubscriptionById(listsubscription);
+            }
+            catch (Exception ex)
+            {
+                response.StatusCode = StaticResource.failStatusCode;
+                response.Message = ex.Message;
+            }
+            return response;
+        }
+    }
+}

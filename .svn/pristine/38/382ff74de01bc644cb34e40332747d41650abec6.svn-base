@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Inbrand.CoreEntities
+{
+   public class Subscription
+    {
+        public int Id { get; set; }
+        public string domainName { get; set; }
+        public string articleID { get; set; }
+        public string tld { get; set; }
+        public string customerID { get; set; }
+        public string customerName { get; set; }
+        public string price { get; set; }
+        public DateTime nextBillDate { get; set; }
+        public DateTime? lastBillGenerateDate { get; set; }        
+    }
+}

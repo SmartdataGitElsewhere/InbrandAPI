@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Inbrand.CoreEntityes.Models
+{
+    public class SubscriptionsModel
+    {
+        public int DomainId { get; set; }
+        public string CustomerId { get; set; }
+        public string CustomerName { get; set; }
+        public string ArticleId { get; set; }
+        public string Domain { get; set; }
+        public string TLD { get; set; }
+        public string Price { get; set; }
+        public DateTime BillingDate { get; set; }
+        public bool? recordStatus { get; set; }
+    }
+}

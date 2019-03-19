@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inbrand.Api", "Inbrand\Inbrand.Api.csproj", "{5FF93299-F337-4293-BEE6-DE95EF05823E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inbrand.ServiceLayer", "ServiceLayer\Inbrand.ServiceLayer.csproj", "{44551401-FE00-411D-BA22-5194E260E4FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inbrand.RepositoryLayer", "RepositoryLayer\Inbrand.RepositoryLayer.csproj", "{56B025CC-68E4-4964-8607-AD3ACA5B71D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inbrand.CoreEntities", "Inbrand.CoreEntityes\Inbrand.CoreEntities.csproj", "{274005B1-7E76-4837-B84F-756F43225E83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inbrand.Interface", "InbrandInterface\Inbrand.Interface.csproj", "{8064DD86-EDB5-4B33-A9E1-B0D5BB7BE795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inbrand.FrotNoxAPI", "Inbrand.FrotNoxAPI\Inbrand.FrotNoxAPI.csproj", "{FCD24617-5F74-4F5F-BF93-83D2CF99FDD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inbrand.Common", "Inbrand.Common\Inbrand.Common.csproj", "{4FE837DE-1C8A-4EF8-9BA2-7579DBCF24BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FF93299-F337-4293-BEE6-DE95EF05823E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF93299-F337-4293-BEE6-DE95EF05823E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF93299-F337-4293-BEE6-DE95EF05823E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF93299-F337-4293-BEE6-DE95EF05823E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44551401-FE00-411D-BA22-5194E260E4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44551401-FE00-411D-BA22-5194E260E4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44551401-FE00-411D-BA22-5194E260E4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44551401-FE00-411D-BA22-5194E260E4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B025CC-68E4-4964-8607-AD3ACA5B71D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B025CC-68E4-4964-8607-AD3ACA5B71D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B025CC-68E4-4964-8607-AD3ACA5B71D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B025CC-68E4-4964-8607-AD3ACA5B71D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274005B1-7E76-4837-B84F-756F43225E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274005B1-7E76-4837-B84F-756F43225E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274005B1-7E76-4837-B84F-756F43225E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274005B1-7E76-4837-B84F-756F43225E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8064DD86-EDB5-4B33-A9E1-B0D5BB7BE795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8064DD86-EDB5-4B33-A9E1-B0D5BB7BE795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8064DD86-EDB5-4B33-A9E1-B0D5BB7BE795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8064DD86-EDB5-4B33-A9E1-B0D5BB7BE795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD24617-5F74-4F5F-BF93-83D2CF99FDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD24617-5F74-4F5F-BF93-83D2CF99FDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD24617-5F74-4F5F-BF93-83D2CF99FDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD24617-5F74-4F5F-BF93-83D2CF99FDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE837DE-1C8A-4EF8-9BA2-7579DBCF24BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE837DE-1C8A-4EF8-9BA2-7579DBCF24BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE837DE-1C8A-4EF8-9BA2-7579DBCF24BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE837DE-1C8A-4EF8-9BA2-7579DBCF24BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

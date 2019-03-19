@@ -1,0 +1,10 @@
+D:\Day User\Vibhesh\Official\InbrandsAPI\Inbrand.Common\bin\Debug\Inbrand.Common.dll
+D:\Day User\Vibhesh\Official\InbrandsAPI\Inbrand.Common\bin\Debug\Inbrand.Common.pdb
+D:\Day User\Vibhesh\Official\InbrandsAPI\Inbrand.Common\obj\Debug\Inbrand.Common.dll
+D:\Day User\Vibhesh\Official\InbrandsAPI\Inbrand.Common\obj\Debug\Inbrand.Common.pdb
+D:\Inbrand\InbrandAPI\Inbrand.Common\bin\Debug\Inbrand.Common.dll
+D:\Inbrand\InbrandAPI\Inbrand.Common\bin\Debug\Inbrand.Common.pdb
+D:\Inbrand\InbrandAPI\Inbrand.Common\obj\Debug\Inbrand.Common.csprojAssemblyReference.cache
+D:\Inbrand\InbrandAPI\Inbrand.Common\obj\Debug\Inbrand.Common.csproj.CoreCompileInputs.cache
+D:\Inbrand\InbrandAPI\Inbrand.Common\obj\Debug\Inbrand.Common.dll
+D:\Inbrand\InbrandAPI\Inbrand.Common\obj\Debug\Inbrand.Common.pdb

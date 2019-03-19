@@ -1,0 +1,108 @@
+﻿using Inbrand.CoreEntityes.FilterModelAndview;
+using Inbrand.FrotNoxAPI.Interface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using FortnoxAPILibrary.Connectors;
+using FortnoxAPILibrary;
+using Inbrand.CoreEntityes.APIResponses;
+using Inbrand.CoreEntities;
+using Inbrand.Common.Helpers;
+using Inbrand.CoreEntityes.Models;
+using System.Net;
+
+namespace Inbrand.FrotNoxAPI
+{
+    public class ArticleRepository : IArticleRepository
+    {
+        public ArticleRepository()
+        {
+            ConnectionCredentials.AccessToken = "0f957c0d-1792-4c09-84ce-ab3f9a66203d";
+            ConnectionCredentials.ClientSecret = "42FKj60NbO";
+        }
+        public List<_Article> All(string articleid)
+        {
+            var _articalConnector = new ArticleConnector();
+            return ConvertToArticleView(_articalConnector.Find().ArticleSubset, articleid);
+        }
+
+
+        private List<_Article> ConvertToArticleView(List<ArticleSubset> articles, string articleid)
+        {
+            string hostName = Dns.GetHostName();
+            string myIP = Dns.GetHostByName(hostName).AddressList[0].ToString();
+            List<_Article> lst = new List<_Article>();
+            if (articleid != null)
+            {
+                articles = articles.Where(x => x.ArticleNumber.Contains(articleid)).ToList();
+            }
+            foreach (var item in articles)
+            {
+                lst.Add(new _Article()
+                {
+                    ArticleNumber = item.ArticleNumber,
+                    Description = item.Description,
+                    DisposableQuantity = item.DisposableQuantity,
+                    EAN = item.EAN,
+                    Housework = item.Housework,
+                    PurchasePrice = item.PurchasePrice,
+                    QuantityInStock = item.QuantityInStock,
+                    ReservedQuantity = item.ReservedQuantity,
+                    SalesPrice = item.ReservedQuantity,
+                    StockPlace = item.StockPlace,
+                    StockValue = item.StockValue,
+                    Unit = item.Unit,
+                    VAT = item.VAT,
+                    WebshopArticle = item.WebshopArticle
+                });
+            }
+            return lst;
+        }
+
+        public async Task<APIResponse> ValidateSubscriptionById(List<SubscriptionsModel> listsubscription)
+        {
+            APIResponse response = new APIResponse();
+            try
+            {
+                int count = 0;
+                var _customer = new CustomerConnector();
+                List<_Article> lst = new List<_Article>();
+                var _articalConnector = new ArticleConnector();
+                var articallist = _articalConnector.Find().ArticleSubset;
+                var customerlist = _customer.Find().CustomerSubset;
+                foreach (var list in listsubscription)
+                {
+                    var existarticle = articallist.Find(x => x.ArticleNumber == list.ArticleId);
+                    if (existarticle != null)
+                    {
+                        var existcustomer = customerlist.Find(x => x.CustomerNumber == list.CustomerId);
+                        if (existcustomer == null)
+                        {
+                            listsubscription[count].recordStatus = false;
+                        }
+                        else
+                        {
+                            listsubscription[count].recordStatus = true;
+                        }
+                    }
+                    else
+                    {
+                        listsubscription[count].recordStatus = false;
+                    }
+                    count++;
+                }
+                response.data.SubscriptionsModelList = listsubscription;
+                response.StatusCode = StaticResource.successStatusCode;
+                response.Message = StaticResource.successmessage;
+            }
+            catch (Exception ex)
+            {
+                response.StatusCode = StaticResource.failStatusCode;
+                response.Message = ex.Message;
+            }
+            return response;
+        }
+    }
+}

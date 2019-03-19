@@ -1,0 +1,96 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Inbrand.FrotNoxAPI.Interface;
+using FortnoxAPILibrary.Connectors;
+using FortnoxAPILibrary;
+using Inbrand.CoreEntityes.FilterModelAndview;
+using Inbrand.CoreEntities;
+
+namespace Inbrand.FrotNoxAPI
+{
+    public class InvoiceRepository : IInvoiceRepository
+    {
+        public InvoiceRepository()
+        {
+            ConnectionCredentials.AccessToken = "0f957c0d-1792-4c09-84ce-ab3f9a66203d";
+            ConnectionCredentials.ClientSecret = "42FKj60NbO";
+        }
+        public _Invoice Create(string customerNumber, List<Subscription> subscriptions, string deliveredQuntity, DateTime invoiceDate)
+        {
+            try
+            {
+                InvoiceConnector _invoiceConnector = new InvoiceConnector();
+                List<InvoiceRow> row = new List<InvoiceRow>();
+                foreach (var subs in subscriptions)
+                {
+                    row.Add(new InvoiceRow() { ArticleNumber = subs.articleID, Description = subs.domainName, DeliveredQuantity = deliveredQuntity });
+                }
+                var invoice = _invoiceConnector.Create(new Invoice() { CustomerNumber = customerNumber, InvoiceRows = row });
+                return ConvertTo_InviewView(invoice);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public _Invoice Update(string documentNumber, string freight)
+        {
+
+            return new _Invoice();
+        }
+
+
+        private _Invoice ConvertTo_InviewView(Invoice invoice)
+        {
+            return new _Invoice()
+            {
+                Address1 = invoice.Address1,
+                Address2 = invoice.Address2,
+                AdministrationFee = invoice.AdministrationFee,
+                AdministrationFeeVAT = invoice.AdministrationFeeVAT,
+                Balance = invoice.Balance,
+                BasisTaxReduction = invoice.BasisTaxReduction,
+                Booked = invoice.Booked,
+                Cancelled = invoice.Cancelled,
+                City = invoice.City,
+                Comments = invoice.Comments,
+                ContractReference = invoice.ContractReference,
+                ContributionPercent = invoice.ContributionPercent,
+                ContributionValue = invoice.ContributionValue,
+                CostCenter = invoice.CostCenter,
+                Country = invoice.Country,
+                Credit = invoice.Credit,
+                CreditInvoiceReference = invoice.CreditInvoiceReference,
+                Currency = invoice.Currency,
+                CurrencyRate = invoice.CurrencyRate,
+                CurrencyUnit = invoice.CurrencyUnit,
+                CustomerName = invoice.CustomerName,
+                CustomerNumber = invoice.CustomerNumber,
+                DeliveryAddress1 = invoice.DeliveryAddress1,
+                DeliveryAddress2 = invoice.DeliveryAddress2,
+                DeliveryCity = invoice.DeliveryCity,
+                DeliveryCountry = invoice.DeliveryCountry,
+                DeliveryDate = invoice.DeliveryDate,
+                DeliveryName = invoice.DeliveryName,
+                DeliveryZipCode = invoice.DeliveryZipCode,
+                DocumentNumber = invoice.DocumentNumber,
+                DueDate = invoice.DueDate,
+                EUQuarterlyReport = invoice.EUQuarterlyReport,
+                ExternalInvoiceReference1 = invoice.ExternalInvoiceReference1,
+                ExternalInvoiceReference2 = invoice.ExternalInvoiceReference2,
+                Freight = invoice.Freight,
+                FreightVAT = invoice.FreightVAT,
+                ZipCode = invoice.ZipCode,
+                Gross = invoice.Gross,
+                InvoiceDate = invoice.InvoiceDate,
+                Net = invoice.Net,
+                Phone1 = invoice.Phone1,
+                Phone2 = invoice.Phone2
+            };
+        }
+    }
+}

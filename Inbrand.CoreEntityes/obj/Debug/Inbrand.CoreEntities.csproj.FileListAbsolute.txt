@@ -1,0 +1,14 @@
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.CoreEntityes\bin\Debug\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.CoreEntityes\bin\Debug\Inbrand.CoreEntityes.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.CoreEntityes\obj\Debug\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.CoreEntityes\obj\Debug\Inbrand.CoreEntityes.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand.CoreEntityes\obj\Debug\Inbrand.CoreEntities.csprojResolveAssemblyReference.cache
+D:\Day User\Vibhesh\Official\InbrandsAPI\Inbrand.CoreEntityes\bin\Debug\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InbrandsAPI\Inbrand.CoreEntityes\bin\Debug\Inbrand.CoreEntityes.pdb
+D:\Day User\Vibhesh\Official\InbrandsAPI\Inbrand.CoreEntityes\obj\Debug\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InbrandsAPI\Inbrand.CoreEntityes\obj\Debug\Inbrand.CoreEntityes.pdb
+D:\Inbrand\InbrandAPI\Inbrand.CoreEntityes\bin\Debug\Inbrand.CoreEntityes.dll
+D:\Inbrand\InbrandAPI\Inbrand.CoreEntityes\bin\Debug\Inbrand.CoreEntityes.pdb
+D:\Inbrand\InbrandAPI\Inbrand.CoreEntityes\obj\Debug\Inbrand.CoreEntities.csproj.CoreCompileInputs.cache
+D:\Inbrand\InbrandAPI\Inbrand.CoreEntityes\obj\Debug\Inbrand.CoreEntityes.dll
+D:\Inbrand\InbrandAPI\Inbrand.CoreEntityes\obj\Debug\Inbrand.CoreEntityes.pdb

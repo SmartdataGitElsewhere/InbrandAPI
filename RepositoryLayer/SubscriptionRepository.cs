@@ -1,0 +1,87 @@
+﻿using Inbrand.CoreEntities;
+using Inbrand.CoreEntityes.FilterModelAndview;
+using InbrandInterface;
+using RepositoryLayer.DA;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RepositoryLayer
+{
+    public class SubscriptionRepository : Repository<Subscription>, ISubscriptionRepository
+    {
+        public DB context
+        {
+            get
+            {
+                return db as DB;
+            }
+        }
+        public SubscriptionRepository(DB _db) : base(_db)
+        {
+
+        }
+        public List<Subscription> FilterBy(SubscriptionFilter subModel)
+       {
+            List<Subscription> lst = new List<Subscription>();
+            DateTime fromdate = subModel.fromDate == null ? new DateTime() : (DateTime)subModel.fromDate;
+            DateTime todate = subModel.toDate == null ? DateTime.Now : (DateTime)subModel.toDate;
+            subModel.customerID = subModel.customerID.ToLower();
+            subModel.customerName = subModel.customerName.ToLower();
+            subModel.domainName = subModel.domainName.ToLower();
+            subModel.articleID = subModel.articleID.ToLower();
+            if (subModel.fromDate != null && subModel.toDate != null)
+                lst = db.Subscriptions.Where(x => x.nextBillDate >= fromdate && x.nextBillDate <= todate).ToList();
+            else if (subModel.fromDate != null)
+                lst = db.Subscriptions.Where(x => x.nextBillDate >= fromdate).ToList();
+            else if (subModel.toDate != null)
+                lst = db.Subscriptions.Where(x => x.nextBillDate <= todate).ToList();
+            else
+                lst = db.Subscriptions.ToList();
+
+            //List<Subscription> lst = db.Subscriptions.Where(x => x.nextBillDate >= fromdate && x.nextBillDate <= todate).ToList();
+
+            if (!string.IsNullOrEmpty(subModel.domainName) || !string.IsNullOrEmpty(subModel.customerID) || !string.IsNullOrEmpty(subModel.articleID) || !string.IsNullOrEmpty(subModel.customerName) || !string.IsNullOrEmpty(subModel.tld) || !string.IsNullOrEmpty(subModel.price) || subModel.nextBillDate != null)
+                lst = (from b in lst
+                       where (subModel.customerID.Length > 0 && b.customerID.ToLower().StartsWith(subModel.customerID)) || (subModel.customerName.Length > 0 && b.customerName.ToLower().StartsWith(subModel.customerName)) || (subModel.domainName.Length > 0 && b.domainName.ToLower().StartsWith(subModel.domainName)) || (subModel.price.Length > 0 && b.price.ToLower().StartsWith(subModel.price))
+                                       || (subModel.tld.Length > 0 && b.tld.ToLower().StartsWith(subModel.tld)) || (subModel.articleID.Length > 0 && b.articleID.ToLower().StartsWith(subModel.articleID)) || (b.nextBillDate == subModel.nextBillDate)
+                       select b).ToList();
+            return lst;
+        }
+
+        public List<Subscription> SubscriptionsForGenerateInvoice(List<int> subIDs, DateTime dat)
+        {
+            List<Subscription> lst = new List<Subscription>();
+            try
+            {
+                //---Commented code for check Last Bill Generate Date should be less then 11 month to current date
+                //dat = dat.AddMonths(-11);
+                //lst = db.Subscriptions.Where(x => subIDs.Contains(x.Id) && x.lastBillGenerateDate == null).ToList();
+                //var subs = db.Subscriptions.Where(x => subIDs.Contains(x.Id) && x.lastBillGenerateDate != null).ToList();
+                //subs = subs.Where(x => Convert.ToDateTime(x.lastBillGenerateDate.ToString()) < dat).ToList();
+                //lst.AddRange(subs);
+                lst = db.Subscriptions.Where(x => subIDs.Contains(x.Id)).ToList();
+                foreach(var t in lst)
+                {
+                    t.price = t.price.Replace(",", ".");
+                }
+                return lst;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public bool CheckForDuplicate(string customerID, string articalID)
+        {
+            return db.Subscriptions.Any(x => x.customerID == customerID && x.articleID == articalID);
+        }
+        public bool CheckForDuplicate(string customerID, string articalID, int Id)
+        {
+            return db.Subscriptions.Any(x => x.customerID == customerID && x.articleID == articalID && x.Id!=Id);
+        }
+    }
+}

@@ -1,0 +1,259 @@
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\ApplicationInsights.config
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\csc.exe
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\System.Collections.Immutable.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\System.Reflection.Metadata.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\vbc.exe
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\VBCSCompiler.exe
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\roslyn\VBCSCompiler.exe.config
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Inbrand.dll.config
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Inbrand.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Inbrand.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\EntityFramework.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\EntityFramework.SqlServer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.DependencyCollector.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.Web.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.WindowsServer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.ApplicationInsights.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.Google.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Web.Infrastructure.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Newtonsoft.Json.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Owin.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Swashbuckle.Core.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Net.Http.Formatting.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Cors.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Helpers.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Http.Cors.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Http.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Http.Owin.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Http.WebHost.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Mvc.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Optimization.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Razor.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.WebPages.Deployment.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.WebPages.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.WebPages.Razor.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\WebActivatorEx.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\WebGrease.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.DependencyCollector.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.Web.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AI.WindowsServer.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.ApplicationInsights.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Newtonsoft.Json.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Http.Cors.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Net.Http.Formatting.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Helpers.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Http.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Http.WebHost.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Mvc.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Razor.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.WebPages.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.WebPages.Deployment.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.WebPages.Razor.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\EntityFramework.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\EntityFramework.SqlServer.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.Google.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Http.Owin.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\obj\Release\Inbrand.Api.csprojResolveAssemblyReference.cache
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\obj\Release\Inbrand.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\obj\Release\Inbrand.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\System.Web.Optimization.xml
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\obj\Release\Inbrand.Migrations.Initial_Create.resources
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\obj\Release\Inbrand.Api.csproj.GenerateResource.Cache
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\CommonServiceLocator.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Inbrand.CoreEntityes.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Inbrand.FrotNoxAPI.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\InbrandInterface.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\RepositoryLayer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\ServiceLayer.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Abstractions.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Configuration.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Container.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Interception.Configuration.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Interception.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.RegistrationByConvention.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.ServiceLocation.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.WebApi.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\FortnoxAPILibrary.dll
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Inbrand.CoreEntityes.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Inbrand.FrotNoxAPI.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\InbrandInterface.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\RepositoryLayer.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\ServiceLayer.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\CommonServiceLocator.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Abstractions.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Configuration.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Container.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Interception.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.Interception.Configuration.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.RegistrationByConvention.pdb
+D:\Day User\Vibhesh\Official\InBrandWebApi\Inbrand\Inbrand\bin\Unity.ServiceLocation.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\ApplicationInsights.config
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\csc.exe
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\System.Collections.Immutable.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\System.Reflection.Metadata.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\vbc.exe
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\VBCSCompiler.exe
+D:\Inbrand\InbrandAPI\Inbrand\bin\roslyn\VBCSCompiler.exe.config
+D:\Inbrand\InbrandAPI\Inbrand\bin\Inbrand.dll.config
+D:\Inbrand\InbrandAPI\Inbrand\bin\Inbrand.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Inbrand.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\CommonServiceLocator.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\EntityFramework.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\EntityFramework.SqlServer.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Inbrand.Common.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Inbrand.CoreEntityes.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Inbrand.FrotNoxAPI.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\InbrandInterface.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.DependencyCollector.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.Web.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.WindowsServer.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.ApplicationInsights.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.IdentityModel.Logging.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.Google.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Web.Infrastructure.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Newtonsoft.Json.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Owin.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\RepositoryLayer.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\ServiceLayer.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Swashbuckle.Core.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Net.Http.Formatting.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Cors.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Helpers.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Http.Cors.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Http.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Http.Owin.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Http.WebHost.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Mvc.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Optimization.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Razor.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.WebPages.Deployment.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.WebPages.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.WebPages.Razor.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Abstractions.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Configuration.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Container.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Interception.Configuration.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Interception.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Mvc.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.RegistrationByConvention.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.ServiceLocation.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.WebApi.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\WebActivatorEx.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\WebGrease.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\FortnoxAPILibrary.dll
+D:\Inbrand\InbrandAPI\Inbrand\bin\Inbrand.Common.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\Inbrand.CoreEntityes.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\Inbrand.FrotNoxAPI.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\InbrandInterface.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\RepositoryLayer.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\RepositoryLayer.dll.config
+D:\Inbrand\InbrandAPI\Inbrand\bin\ServiceLayer.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\ServiceLayer.dll.config
+D:\Inbrand\InbrandAPI\Inbrand\bin\CommonServiceLocator.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.DependencyCollector.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.Web.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AI.WindowsServer.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.ApplicationInsights.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.IdentityModel.Logging.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Newtonsoft.Json.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Http.Cors.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Optimization.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Net.Http.Formatting.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Helpers.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Http.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Http.WebHost.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Mvc.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Razor.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.WebPages.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.WebPages.Deployment.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.WebPages.Razor.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Configuration.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Interception.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Interception.Configuration.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.Mvc.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.RegistrationByConvention.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\Unity.ServiceLocation.pdb
+D:\Inbrand\InbrandAPI\Inbrand\bin\EntityFramework.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\EntityFramework.SqlServer.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.Google.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Inbrand\InbrandAPI\Inbrand\bin\System.Web.Http.Owin.xml
+D:\Inbrand\InbrandAPI\Inbrand\obj\Release\Inbrand.Api.csprojAssemblyReference.cache
+D:\Inbrand\InbrandAPI\Inbrand\obj\Release\Inbrand.Api.csproj.CoreCompileInputs.cache
+D:\Inbrand\InbrandAPI\Inbrand\obj\Release\Inbrand.Api.csproj.CopyComplete
+D:\Inbrand\InbrandAPI\Inbrand\obj\Release\Inbrand.dll
+D:\Inbrand\InbrandAPI\Inbrand\obj\Release\Inbrand.pdb

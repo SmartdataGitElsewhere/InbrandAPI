@@ -1,0 +1,6 @@
+D:\Inbrand\InbrandAPI\Inbrand.Common\bin\Release\Inbrand.Common.dll
+D:\Inbrand\InbrandAPI\Inbrand.Common\bin\Release\Inbrand.Common.pdb
+D:\Inbrand\InbrandAPI\Inbrand.Common\obj\Release\Inbrand.Common.csprojAssemblyReference.cache
+D:\Inbrand\InbrandAPI\Inbrand.Common\obj\Release\Inbrand.Common.csproj.CoreCompileInputs.cache
+D:\Inbrand\InbrandAPI\Inbrand.Common\obj\Release\Inbrand.Common.dll
+D:\Inbrand\InbrandAPI\Inbrand.Common\obj\Release\Inbrand.Common.pdb

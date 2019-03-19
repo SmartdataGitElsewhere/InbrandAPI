@@ -1,0 +1,455 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Web.Http;
+using System.Web.Http.Description;
+using Inbrand.Models;
+using System.Collections;
+using InbrandInterface.ServiceInterface;
+using Inbrand.CoreEntities;
+using Inbrand.CoreEntityes.FilterModelAndview;
+using Inbrand.Providers;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
+using Inbrand.CoreEntityes.APIResponses;
+using Inbrand.CoreEntityes.Models;
+using RepositoryLayer;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Inbrand.Common;
+using System.Net.Http.Headers;
+
+namespace Inbrand.Controllers
+{
+    [RoutePrefix("Subscriptions")]
+    //[Route("Subscriptions/[Action]")]
+    public class SubscriptionsController : ApiController
+    {
+        private readonly ISubscriptionService _subscriptionService;
+        private readonly IInvoiceService _invoiceSercice;
+        private readonly IArticleService _articleService;
+        private readonly ICustomerService _customerService;
+        private readonly IUserService _userService;
+        private readonly IIPAddressService _ipaddressService;
+        private ApplicationUserManager _userManager;
+
+
+        public SubscriptionsController()
+        {
+
+        }
+        public SubscriptionsController(ISubscriptionService subscriptionService, IInvoiceService invoiceService, IArticleService articleService, IUserService userService, ApplicationUserManager userManager, ICustomerService customerService, IIPAddressService ipaddressService)
+        {
+            this._subscriptionService = subscriptionService;
+            this._invoiceSercice = invoiceService;
+            this._articleService = articleService;
+            this._userService = userService;
+            UserManager = userManager;
+            this._customerService = customerService;
+            this._ipaddressService = ipaddressService;
+        }
+
+        public ApplicationUserManager UserManager
+        {
+            get
+            {
+                return _userManager ?? Request.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            }
+            private set
+            {
+                _userManager = value;
+            }
+        }
+
+        //private ApplicationDbContext db = new ApplicationDbContext();
+
+        // GET: api/Subscriptions
+
+        [HttpGet]
+        [Route("GetSubscriptions")]
+        [Providers.Authorize]
+        //[HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
+        public IList<Subscription> GetSubscriptions()
+        {
+            return _subscriptionService.GetAll().ToList();
+        }
+
+        [HttpGet]
+        [Route("GetSubscriptionsToExcel")]
+        [Providers.Authorize]
+        //[HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
+        public HttpResponseMessage GetSubscriptionsToExcel()
+        {
+            var result = _subscriptionService.GetAll().ToList();
+            if (result != null)
+            {
+                var streamResult = (new StringEncryption()).GetCsvStream(result);
+                streamResult.Position = 0;
+                string fileName = Guid.NewGuid() + "_NoveraEpisodes.csv";
+                HttpResponseMessage response = Request.CreateResponse();
+                response.Headers.AcceptRanges.Add("bytes");
+                response.Content = new StreamContent(streamResult);
+                response.Content.Headers.ContentDisposition = new System.Net.Http.Headers.ContentDispositionHeaderValue("attachment");
+                response.Content.Headers.ContentDisposition.FileName = fileName;
+                response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+                response.StatusCode = HttpStatusCode.OK;
+                return response;
+
+            }
+            else { return Request.CreateResponse(HttpStatusCode.NoContent); }
+
+        }
+
+        [HttpPost]
+        [Route("GetSubscriptionSearch")]
+        [Providers.Authorize]
+        public List<Subscription> GetSubscriptionSearch(SubscriptionFilter subModel)
+        {
+            return _subscriptionService.FilterBy(subModel);
+        }
+
+        [HttpPost]
+        [Route("ExportToExcel")]
+        [Providers.Authorize]
+        public HttpResponseMessage ExportToExcel(SubscriptionFilter subModel)
+        {
+            var result= _subscriptionService.FilterBy(subModel);
+            if (result != null)
+            {
+                var streamResult = (new StringEncryption()).GetCsvStream(result);
+                streamResult.Position = 0;
+                string fileName = Guid.NewGuid() + "_NoveraEpisodes.csv";
+                HttpResponseMessage response = Request.CreateResponse();
+                response.Headers.AcceptRanges.Add("bytes");
+                response.Content = new StreamContent(streamResult);
+                response.Content.Headers.ContentDisposition = new System.Net.Http.Headers.ContentDispositionHeaderValue("attachment");
+                response.Content.Headers.ContentDisposition.FileName = fileName;
+                response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+                response.StatusCode = HttpStatusCode.OK;
+                var take = response;
+                return response;
+                
+            }
+            else { return Request.CreateResponse(HttpStatusCode.NoContent); }
+
+        }
+
+        // GET: api/Subscriptions/5
+        [ResponseType(typeof(Subscription))]
+        [Route("GetSubscription")]
+        [HttpGet]
+        [Providers.Authorize]
+        public async Task<IHttpActionResult> GetSubscription(int id)
+        {
+            Subscription subscription = await _subscriptionService.FindAsync(id);
+            if (subscription == null)
+            {
+                return NotFound();
+            }
+            return Ok(subscription);
+        }
+
+        // PUT: api/Subscriptions/5
+        [ResponseType(typeof(void))]
+        [HttpPost]
+        [Route("PutSubscription")]
+        [Providers.Authorize]
+        public async Task<IHttpActionResult> PutSubscription(Subscription subscription)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            await _subscriptionService.UpdateAsync(subscription);
+            return StatusCode(HttpStatusCode.NoContent);
+        }
+
+        // POST: api/Subscriptions
+        //[ResponseType(typeof(Subscription))]
+        [HttpPost]
+        [Route("PostSubscriptions")]
+        [Providers.Authorize]
+        public async Task<IHttpActionResult> PostSubscriptions(List<Subscription> subscriptions)
+        {
+            //if (!ModelState.IsValid)
+            //{
+            //    return BadRequest(ModelState);
+            //}
+
+            await _subscriptionService.AddRangeAsync(subscriptions);
+            return Ok("Ok");
+
+
+            // return CreatedAtRoute("DefaultApi", new { id = subscription.Id }, subscription);
+        }
+
+        // DELETE: api/Subscriptions/5
+        [HttpDelete]
+        [ResponseType(typeof(Subscription))]
+        [Route("DeleteSubscription")]
+        [Providers.Authorize]
+        public async Task<IHttpActionResult> DeleteSubscription(int id)
+        {
+            Subscription subscription = await _subscriptionService.FindAsync(id);
+            if (subscription == null)
+            {
+                return NotFound();
+            }
+
+            await _subscriptionService.DeleteAsync(id);
+
+            return Ok(subscription);
+        }
+
+
+
+        [HttpPost]
+        [Route("PostGenerateInvoice")]
+        [Providers.Authorize]
+        public HttpResponseMessage PostGenerateInvoice(List<Subscription> subList)
+        {
+            List<Messages> msg = _invoiceSercice.Create(subList);
+            return Request.CreateResponse(HttpStatusCode.OK, msg);
+        }
+
+        //[Providers.Authorize]
+        //[Route("GetArticles")]
+        //[HttpGet]
+        //public HttpResponseMessage GetArticles(string articleid)
+        //{
+        //    return Request.CreateResponse(HttpStatusCode.OK, _articleService.All(articleid));
+        //}
+
+        [Providers.Authorize]
+        [Route("GetArticles")]
+        [HttpGet]
+        public object GetArticles(string articleid)
+        {
+            // return Request.CreateResponse(HttpStatusCode.OK, _articleService.All(articleid));
+            return _articleService.GetActiveArticles(articleid);
+        }
+
+        [Providers.Authorize]
+        [Route("GetCustomers")]
+        [HttpGet]
+        public HttpResponseMessage GetCustomers(string name)
+        {
+            return Request.CreateResponse(HttpStatusCode.OK, _customerService.All(name));
+        }
+
+        private bool SubscriptionExists(int id)
+        {
+            return _subscriptionService.Exists(id);
+        }
+
+
+        [HttpPost]
+        [Route("CreateNewUser")]
+        [Providers.Authorize]
+        public async Task<IHttpActionResult> CreateNewUser(UserModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var user = new ApplicationUser() { UserName = model.Email, Email = model.Email, PhoneNumber = "", };
+
+            IdentityResult result = await UserManager.CreateAsync(user, model.Password);
+            if (result.Succeeded == true)
+            {
+                model.AspNetUserId = user.Id;
+                await _userService.CreateUser(model);
+            }
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("EditUserDetails")]
+        [Providers.Authorize]
+        public async Task<IHttpActionResult> EditUserDetails(UserModel model)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            IdentityResult result = await UserManager.ChangePasswordAsync(User.Identity.GetUserId(), model.Password,
+                model.Password);
+
+            if (result.Succeeded == true)
+            {
+                await _userService.EditUserDetails(model);
+            }
+            else
+            {
+                return GetErrorResult(result);
+            }
+            return Ok();
+        }
+
+        [HttpGet]
+        [Route("GetUserList")]
+        [Providers.Authorize]
+        public async Task<APIResponse> GetUserList()
+        {
+            APIResponse response = new APIResponse();
+            response =  await _userService.GetUserList();
+            return response;
+        }
+
+        [HttpPost]
+        [Route("ValidateUser")]
+        //[Providers.Authorize]
+        public async Task<APIResponse> ValidateUser(ValidateUserModel model)
+        {
+            APIResponse response = new APIResponse();
+            var user = await UserManager.FindByNameAsync(model.UserName);
+            var isExist = UserManager.IsInRoleAsync(user.Id, "Admin").Result;
+            model.isadminrole = isExist;
+            response = await _userService.ValidateUser(model);
+            return response;
+        }
+
+        [HttpGet]
+        [Route("ValidateIPAddress")]
+        public async Task<APIResponse> ValidateIPAddress(string ipaddress)
+        {
+            APIResponse response = new APIResponse();
+            return await _userService.ValidateIPAddress(ipaddress);
+        }
+
+        [HttpDelete]
+        [Route("DeleteUser")]
+        [Providers.Authorize]
+        public async Task<APIResponse> DeleteUser(int UserId)
+        {
+            APIResponse response = new APIResponse();
+            response = await _userService.DeleteUser(UserId);
+            return response;
+        }
+
+        [HttpPost]
+        [Route("ValidateSubscriptionById")]
+        [Providers.Authorize]
+        public async Task<APIResponse> ValidateSubscriptionById(List<SubscriptionsModel> listsubscription)
+        {
+            APIResponse response = new APIResponse();
+            response = await _articleService.ValidateSubscriptionById(listsubscription);
+            return response;
+        }
+
+
+        [HttpGet]
+        [Route("GetIPAddressList")]
+        [Providers.Authorize]
+        public async Task<APIResponse> GetIPAddressList()
+        {
+            APIResponse response = new APIResponse();
+            response = await _ipaddressService.GetIPAddressList();
+            return response;
+        }
+
+        [HttpPost]
+        [Route("AddNewIPAddress")]
+        [Providers.Authorize]
+        public async Task<APIResponse> AddNewIPAddress(IPAddressModel model)
+        {
+            APIResponse response = new APIResponse();
+            response = await _ipaddressService.AddNewIPAddress(model);
+            return response;
+        }
+
+        [HttpPost]
+        [Route("EditIPAddress")]
+        [Providers.Authorize]
+        public async Task<APIResponse> EditIPAddress(IPAddressModel model)
+        {
+            APIResponse response = new APIResponse();
+            return await _ipaddressService.EditIPAddress(model);
+        }
+
+        [HttpDelete]
+        [Route("DeleteIPAddress")]
+        [Providers.Authorize]
+        public async Task<APIResponse> DeleteIPAddress(int systemipid)
+        {
+            APIResponse response = new APIResponse();
+            return await _ipaddressService.DeleteIPAddress(systemipid);
+        }
+
+
+        private IHttpActionResult GetErrorResult(IdentityResult result)
+        {
+            if (result == null)
+            {
+                return InternalServerError();
+            }
+
+            if (!result.Succeeded)
+            {
+                if (result.Errors != null)
+                {
+                    foreach (string error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error);
+                    }
+                }
+
+                if (ModelState.IsValid)
+                {
+                    // No ModelState errors are available to send, so just return an empty BadRequest.
+                    return BadRequest();
+                }
+                
+
+                return BadRequest(ModelState);
+            }
+
+            return null;
+        }
+
+        [HttpPost]
+        [Route("DeleteMultiple")]
+        [Providers.Authorize]
+        public async Task<APIResponse> DeleteMultiple(List<SubscriptionIds> listsubscription)
+        {
+            APIResponse response = new APIResponse();
+            response = await _subscriptionService.DeleteMultiple(listsubscription);
+            return response;
+        }
+
+        [Providers.Authorize]
+        [Route("GetCustomerProduct")]
+        [HttpGet]
+        public object GetCustomerProduct(string domainname)
+        {
+            // return Request.CreateResponse(HttpStatusCode.OK, _articleService.All(articleid));
+            return _subscriptionService.GetCustomerProduct(domainname);
+        }
+
+        [HttpPost]
+        [Route("SearchMultipleDomain")]
+        [Providers.Authorize]
+        public object SearchMultipleDomain(List<string> multipledomains)
+        {
+           
+            return  _subscriptionService.SearchMultipleDomain(multipledomains);
+            
+        }
+
+        [HttpPost]
+        [Route("SearchMultipleDomainList")]
+        [Providers.Authorize]
+        public object SearchMultipleDomainList(List<string> multipledomains)
+        {
+
+            return _subscriptionService.SearchMultipleDomainList(multipledomains);
+
+        }
+    }
+}
